@@ -3,6 +3,12 @@
   --site-main-color: darkblue;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   background-color: var(--site-main-color);
   padding: 10px;
@@ -24,6 +30,7 @@ main img {
   border: 1px solid black;
   padding: 2px;
   box-shadow: 0 0 30px gray;
+  float: right;
 }
 
 p {
@@ -36,16 +43,12 @@ main {
 
 aside {
   width: 20rem;
-  margin: 1rem;
-  border: 1px solid var(--border-color);
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
   text-align: center;
+  position: relative;
 }
 
 aside img {
-  width: 200px;
+  width: 250px;
   height: auto;
 }
 
@@ -53,4 +56,23 @@ footer {
   margin-top: 20px;
   border-top: var(--border-color);
   text-align: center;
+}
+
+/* CLASS SELECTORS */
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  background-color: #eee;
+  color: #333;
+}
+
+.temples {
+  clear: right;
+}
+
+.country-name {
+  position: absolute;
+  top: 2rem;
+  left: 7.5rem;
 }

@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #3cf2c1;
+  --secondary-color: #05B4FF;
+  --aspect1-color: #4b96ff;
+  --aspect2-color: #00d7e2;
+  --aspect3-color: #02edf5;
+  --heading-font: macondo;
+  --body-font: IBM Plex Serif;
+}
+
+body {
+  width: 98%;
+}
+
+header {
+  background-color: var(--aspect1-color);
+}
+
+header a {
+  text-decoration: none;
+  font-family: var(--body-font);
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--aspect1-color);
+}
+
+p {
+  font-family: var(--body-font);
+  font-size: 1em;
+}
+
+footer img {
+  width: 1.5em;
+  height: auto;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

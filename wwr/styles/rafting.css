@@ -26,6 +26,42 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--aspect1-color);
 }
 
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 4%;
+  left: 38%;
+  color: white;
+  font-size: 3em;
+}
+
+article {
+  position: absolute;
+  top: 25%;
+  right: 23%;
+  width: 50%;
+  padding: 0.75em;
+  background-color: var(--primary-color);
+}
+
+article img {
+  float: right;
+  opacity: 1;
+}
+
+article p {
+  float: left;
+}
+
 p {
   font-family: var(--body-font);
   font-size: 1em;
@@ -38,14 +74,4 @@ footer img {
 
 footer a {
   text-decoration: none;
-}
-
-.hero {
-  position: relative;
-}
-
-.hero img {
-  display: block;
-  width: 100%;
-  height: auto;
 }

@@ -8,8 +8,8 @@
   --body-font: IBM Plex Serif;
 }
 
-body {
-  width: 99%;
+main {
+  margin-top: 100px;
 }
 
 header {
@@ -17,23 +17,29 @@ header {
   display: grid;
   grid-template-columns: 1fr 3fr;
   place-items: center;
-  border: 1px solid black;
+  position: fixed;
+  height: 100px;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+header img {
+  width: 100px;
 }
 
 header a {
   text-decoration: none;
-  font-family: var(--body-font);
+  font-family: var(--heading-font);
+  font-size: 1.5em;
   color: white;
-}
-
-header img {
-  border: 1px solid gray;
 }
 
 header nav {
   display: flex;
   justify-content: space-around;
-  border: 1px solid green;
+  width: 100%;
 }
 
 /* ABOUT */
@@ -101,24 +107,27 @@ p {
 
 
 /* CONTACT */
+.contact-title,
+.meet-team,
+.contact-info-title {
+  text-align: center;
+  font-family: var(--heading-font);
+  font-size: 2em;
+}
+
+.contact-title {
+  margin-top: 30px;
+}
+
 .company-contact {
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 10px;
 }
 
-.company-contact-info {
-  border: 1px solid red;
-}
-
 pre {
   font-family: var(--body-font);
-}
-
-.map-area {
-  border: 1px solid green;
 }
 
 .map {

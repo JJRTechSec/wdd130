@@ -36,6 +36,10 @@ header a {
   color: white;
 }
 
+header a:hover {
+  color: var(--primary-color);
+}
+
 header nav {
   display: flex;
   justify-content: space-around;
@@ -122,6 +126,7 @@ p {
 .company-contact {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 10px;
 }
@@ -134,9 +139,41 @@ pre {
   height: 100%;
 }
 
+.employee-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.employee-section img {
+  width: 200px;
+  height: 15em;
+}
+
+.employee-section figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.employee-section figcaption {
+  padding: 8px;
+  font-family: var(--body-font);
+}
+
+.employee2,
+.employee3 {
+  height: 100%;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -144,6 +181,7 @@ pre {
 form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   width: 70%;
   font-family: var(--body-font);

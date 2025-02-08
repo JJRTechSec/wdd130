@@ -210,7 +210,8 @@ form h3 {
 }
 
 .radio-buttons {
-  width: 30%;
+  display: inline-block;
+  width: 50%;
 }
 
 .radio-buttons label {
@@ -220,6 +221,12 @@ form h3 {
 textarea {
   width: 60%;
   height: 6em;
+  text-align: center;
+}
+
+textarea::placeholder {
+  text-align: center;
+  color: var(--aspect1-color);
 }
 
 .contact-checkbox {

@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .history {
   width: 90%;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
 }
@@ -135,6 +134,24 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
+}
+
+.adventure-pics img {
+  width: 100px;
+}
+
+.adventure-pics figure {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.adventure-pics figcaption {
+  text-align: center;
 }
 
 

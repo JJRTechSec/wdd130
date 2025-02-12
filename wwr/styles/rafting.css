@@ -325,6 +325,10 @@ footer nav {
   margin-top: 30px;
 }
 
+footer nav p {
+  font-family: var(--body-font);
+}
+
 footer img {
   width: 1.5em;
   height: auto;
@@ -332,4 +336,8 @@ footer img {
 
 footer a {
   text-decoration: none;
+}
+
+footer div {
+  justify-content: end;
 }

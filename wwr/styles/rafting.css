@@ -229,6 +229,7 @@ pre {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 90%;
 }
 
 form {
@@ -300,22 +301,6 @@ textarea::placeholder {
   height: 2em;
 }
 
-form button {
-  align-items: center;
-  width: 20%;
-  padding: 6px;
-  background-color: var(--aspect3-color);
-  border: none;
-  border-radius: 6px;
-  font-family: var(--body-font);
-}
-
-form button:hover {
-  cursor: pointer;
-  box-shadow: 2px 2px;
-  border: 1px solid var(--aspect1-color);
-}
-
 /* TRIPS */
 .trips-container {
   display: flex;
@@ -380,8 +365,9 @@ th, tr, td {
   justify-content: space-around;
 }
 
-.booking-container button {
+button {
   background-color: var(--primary-color);
+  align-items: center;
   padding: 8px;
   border: none;
   border-radius: 6px;
@@ -389,9 +375,10 @@ th, tr, td {
   font-weight: 600;
 }
 
-.booking-container button:hover {
+button:hover {
   cursor: pointer;
   background-color: var(--secondary-color);
+  box-shadow: 2px 2px;
 }
 
 /* FOOTER */

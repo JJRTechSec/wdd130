@@ -354,6 +354,7 @@ th, tr, td {
 .booking-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   width: 90%;
   margin-top: 30px;
@@ -379,6 +380,11 @@ button:hover {
   cursor: pointer;
   background-color: var(--secondary-color);
   box-shadow: 2px 2px;
+}
+
+/* HOME */
+.home-container {
+  width: 101.25%;
 }
 
 /* FOOTER */

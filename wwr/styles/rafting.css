@@ -384,9 +384,7 @@ button:hover {
 
 /* HOME */
 .home-container {
-  border: 1px solid black;
-  /*width: 101.25%;*/
-  width: 101.15%;
+  width: 101.25%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -399,9 +397,13 @@ button:hover {
 .home-hero h2 {
   position: absolute;
   top: 5%;
-  left: 25%;
+  left: 28%;
   color: white;
   font-family: var(--heading-font);
+}
+
+.strong a {
+  color: white;
 }
 
 .site-purpose {
@@ -422,10 +424,14 @@ button:hover {
 .site-purpose p {
   flex: 2;
   text-align: center;
+  padding: 8px;
+}
+
+.site-purpose a {
+  color: var(--secondary-color);
 }
 
 .newsletter-signup {
-  border: 1px solid blue;
   grid-column: span 3 / 4;
   display: flex;
   flex-direction: column;
